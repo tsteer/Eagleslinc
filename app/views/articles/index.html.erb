@@ -19,7 +19,7 @@
         <td><%= article.title %></td>
         <td><%= article.subheading %></td>
         <td><%= article.article_body %></td>
-        <td><%= article.picture %></td>
+        <%= image_tag article.picture_url(:thumb) if article.picture.present? %>
         <td><%= link_to 'Show', article %></td>
       </tr>
     <% end %>
