@@ -1,33 +1,25 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
-
-<p>
-  <strong>Subheading:</strong>
-  <%= @article.subheading %>
-</p>
-
-<p>
-  <strong>Article body:</strong>
-  <%= @article.article_body %>
-</p>
-
-<p>
-  <strong>Picture:</strong>
-  <%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %>
-</p>
-
-<h3>Comments</h3>
-<% @comments.each do |comment| %>
-  <div>
-    <strong><%= comment.user_name %></strong>
-    <br>
-    <p><%= comment.body %></p>
+<div class="card mb-3">
+  <div class="card-block px-4 py-2">
+    <p><%= @article.title %></p>
+    <p><%= @article.subheading %></p>
+    <p><%= @article.article_body %></p>
+    <p><%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %></p>
   </div>
-<% end %>
-<%= render partial: 'comments/form', locals: { comment: @comment } %>
+</div>
 
+<div class="card mb-3">
+  <div class="card-block px-4 py-2">
+    <h3>Comments</h3>
+    <% @comments.each do |comment| %>
+      <div>
+        <strong><%= comment.user_name %></strong>
+        <br>
+        <p><%= comment.body %></p>
+      </div>
+    <% end %>
+    <%= render partial: 'comments/form', locals: { comment: @comment } %>
+  </div>
+</div>
 <%= link_to 'Back', articles_path %>

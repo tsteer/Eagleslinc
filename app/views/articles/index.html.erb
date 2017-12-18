@@ -1,29 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Articles</h1>
+<% @articles.each do |article| %>
+  <div class="card mb-3">
+    <div class="card-block px-4 py-2">
+      <h1><%= link_to article.title, article_path(article), class: 'card-title py-2' %></h1>
+      <%= article.subheading %>
+      <%= image_tag article.picture_url(:thumb), class: 'article-index-thumbnail' if article.picture.present? %>
+    </div>
+  </div>
+<% end %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Subheading</th>
-      <th>Article body</th>
-      <th>Picture</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @articles.each do |article| %>
-      <tr>
-        <td><%= article.title %></td>
-        <td><%= article.subheading %></td>
-        <td><%= article.article_body %></td>
-        <%= image_tag article.picture_url(:thumb) if article.picture.present? %>
-        <td><%= link_to 'Show', article %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
