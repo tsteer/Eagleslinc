@@ -4,8 +4,10 @@
   <div class="card mb-3">
     <div class="card-block px-4 py-2">
       <h1><%= link_to article.title, article_path(article), class: 'card-title py-2' %></h1>
-      <%= article.subheading %>
-      <%= image_tag article.picture_url(:thumb), class: 'article-index-thumbnail' if article.picture.present? %>
+      <div class="article-index-container">
+        <div class="card-subtitle"><%= article.subheading %></div>
+        <%= image_tag article.picture_url(:thumb), class: 'article-index-thumbnail' if article.picture.present? %>
+      </div>
     </div>
   </div>
 <% end %>

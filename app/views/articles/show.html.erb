@@ -2,10 +2,9 @@
 
 <div class="card mb-3">
   <div class="card-block px-4 py-2">
-    <p><%= @article.title %></p>
-    <p><%= @article.subheading %></p>
+    <h1><%= @article.title %></h1>
+    <h2><%= @article.subheading %></h2>
     <p><%= @article.article_body %></p>
-    <p><%= image_tag(@article.picture_url, width: 600) if @article.picture.present? %></p>
   </div>
 </div>
 

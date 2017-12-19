@@ -12,18 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :user_name %>
-    <%= form.text_field :user_name, id: :comment_user_name %>
+    <%= form.text_field :user_name, placeholder: 'Username', id: :comment_user_name %>
   </div>
 
   <div class="field">
-    <%= form.label :body %>
-    <%= form.text_area :body, id: :comment_body %>
+    <%= form.text_area :body, placeholder: 'Enter your comment...', id: :comment_body %>
   </div>
 
   <div class="field">
-    <%= form.label :article_id %>
-    <%= form.number_field :article_id, id: :comment_article_id %>
+    <%= form.hidden_field :article_id, id: :comment_article_id %>
   </div>
 
   <div class="actions">
