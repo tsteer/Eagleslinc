@@ -1,0 +1,42 @@
+@import "bootstrap";
+
+html {
+  height: 100%;
+}
+
+.site-footer-container {
+  text-align: center;
+  justify-content: center;
+  font-weight: lighter;
+  display: flex;
+  background-color: gray;
+  margin-bottom: 0;
+  height: 10vh;
+}
+
+.flex-container {
+  min-height: 100vh - 17vh;
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #004D56;
+}
+
+.article-index-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-index-thumbnail {
+  width: 20vh;
+}
+
+.card-subtitle {
+  vertical-align: top;
+}
+
+.wysiwyg-content img {
+  max-width: 100%;
+  height: auto !important;
+}
+

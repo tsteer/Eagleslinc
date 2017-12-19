@@ -1,5 +1,7 @@
 {
   "name": "Eagleslinc",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "flexbox": "0.0.3"
+  }
 }
