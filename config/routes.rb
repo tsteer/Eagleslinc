@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   root to: redirect('/articles')
   resources :articles, only: [:show, :index]
+  resources :players, only: [:show, :index]
+
 end

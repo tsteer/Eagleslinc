@@ -22,7 +22,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @player.picture %>
+  <%= image_tag(@player.picture_url, width: 600) if @player.picture.present? %>
 </p>
 
 <p>
@@ -35,5 +35,4 @@
   <%= @player.weakness %>
 </p>
 
-<%= link_to 'Edit', edit_player_path(@player) %> |
 <%= link_to 'Back', players_path %>
