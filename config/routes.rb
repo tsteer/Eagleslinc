@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :players
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   resources :comments
@@ -6,4 +7,6 @@ Rails.application.routes.draw do
 
   root to: redirect('/articles')
   resources :articles, only: [:show, :index]
+  resources :players, only: [:show, :index]
+
 end

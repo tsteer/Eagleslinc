@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @player.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @player.last_name %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @player.position %>
+</p>
+
+<p>
+  <strong>Article:</strong>
+  <%= @player.article %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= image_tag(@player.picture_url, width: 600) if @player.picture.present? %>
+</p>
+
+<p>
+  <strong>Strength:</strong>
+  <%= @player.strength %>
+</p>
+
+<p>
+  <strong>Weakness:</strong>
+  <%= @player.weakness %>
+</p>
+
+<%= link_to 'Back', players_path %>
