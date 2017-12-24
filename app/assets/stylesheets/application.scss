@@ -40,3 +40,60 @@ html {
   height: auto !important;
 }
 
+.flex-container {
+  display: flex;
+  flex-basis: 25%;
+  color: white;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pl-name {
+  font-size: 2rem;
+  color: purple;
+  position: absolute;
+}
+
+
+.pl-card-container-0 {
+  position: absolute;
+  z-index: 3;
+  left: 5%;
+  bottom: 15%;
+}
+
+.pl-card-container-1 {
+  position: absolute;
+  z-index: 2;
+  left: 25%;
+  bottom: 30%;
+}
+
+.pl-card-container-2 {
+  position: absolute;
+  z-index: 1;
+  right: 5%;
+  bottom: 45%;
+}
+
+.position-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.cell-container {
+  position: relative;
+  height: 20vh;
+  width: 10vh;
+}
+
+table {
+  height: auto;
+  display: table;
+}
+
+td { height:100px }
+
+table tr td {border:1px solid #008999}
