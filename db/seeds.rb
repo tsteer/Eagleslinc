@@ -21,12 +21,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'FS',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'FS',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'SS',
   article: 'test_article',
   picture: 'image.png',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'SS',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'SS',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -43,12 +87,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'RCB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RCB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'LCB',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LCB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LCB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -65,12 +153,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'SLB',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'SLB',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'MLB',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'MLB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'MLB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -87,12 +219,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'WLB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'WLB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'RDE',
   article: 'test_article',
   picture: 'image.png',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RDE',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RDE',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -109,12 +285,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'NT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'NT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'DLT',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'DLT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'DLT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -131,12 +351,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'LDE',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LDE',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'LWR',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LWR',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LWR',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -153,12 +417,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'LT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LT',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'LG',
   article: 'test_article',
   picture: 'image.png',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LG',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'LG',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -175,12 +483,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'C',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'C',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'RG',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RG',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RG',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -197,12 +549,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'RT',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RT',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'RWR',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RWR',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'RWR',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -219,12 +615,56 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'TE1',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'TE1',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'QB',
   article: 'test_article',
   picture: 'image.png',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'QB',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'QB',
+  article: 'test_article',
+  picture: 'image.png',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
 
 Player.create(
@@ -241,10 +681,54 @@ Player.create(
 Player.create(
   first_name: 'first',
   last_name: 'last',
+  position: 'TE2',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'TE2',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
   position: 'HB',
   article: 'test_article',
   picture: '',
   strength: 'fast',
   weakness: 'slow',
   player_string: 1
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'HB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 2
+)
+
+Player.create(
+  first_name: 'first',
+  last_name: 'last',
+  position: 'HB',
+  article: 'test_article',
+  picture: '',
+  strength: 'fast',
+  weakness: 'slow',
+  player_string: 3
 )
