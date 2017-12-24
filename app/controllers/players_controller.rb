@@ -1,5 +1,9 @@
 class PlayersController < InheritedResources::Base
 
+  def index
+    @positions = Player.group_position
+  end
+
   private
 
     def player_params

@@ -2,33 +2,34 @@
 
 <h1>Players</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Position</th>
-      <th>Article</th>
-      <th>Picture</th>
-      <th>Strength</th>
-      <th>Weakness</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @players.each do |player| %>
-      <tr>
-        <td><%= player.first_name %></td>
-        <td><%= player.last_name %></td>
-        <td><%= player.position %></td>
-        <td><%= player.article %></td>
-        <td><%= player.picture %></td>
-        <td><%= player.strength %></td>
-        <td><%= player.weakness %></td>
-      </tr>
-    <% end %>
-  </tbody>
+<table style="width:100%">
+<tr>
+    <td></td>
+    <td></td>
+    <td>
+      <% pos_idx = @positions.find_index { |plr| plr[0].position == 'FS' } %>
+        <% @positions[pos_idx].each do |player| %>
+        <div class="pl-card-container">
+          <div class="pl-name">
+          <%= image_tag(player.picture_url, width: 100) if player.picture.present? %>
+          </div>
+        </div>
+      <% end %>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>
+      <% pos_idx = @positions.find_index { |plr| plr[0].position == 'SS' } %>
+        <% @positions[pos_idx].each do |player| %>
+        <div class="pl-card-container">
+          <div class="pl-name">
+          <%= image_tag(player.picture_url, width: 100) if player.picture.present? %>
+          </div>
+        </div>
+      <% end %>
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
-
-<br>
