@@ -14,5 +14,7 @@
 //= require turbolinks
 //= require_tree .
 $(document).ready(function(){
-  $('[rel="popover"]').popover({ trigger: "hover" });
+  $('[rel="popover"]').popover({ trigger: "hover",
+    html: true
+   });
 });
