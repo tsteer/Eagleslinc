@@ -12,7 +12,7 @@
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
             <div class="pl-name"><%= player.last_name %></div>
-            <%= image_tag(player.picture_url, width: 60) if player.picture.present? %>
+            <%= image_tag(player.picture_url, width: 60, rel: "popover", data: { toggle: "popover", trigger: "hover", placement: "top", content: "testing this", container: "body" }) if player.picture.present? %>
           </div>
         <% end %>
       </td>
