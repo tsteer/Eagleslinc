@@ -49,12 +49,16 @@ html {
   justify-content: space-evenly;
 }
 
-.pl-name {
+.pic-name {
   font-size: 2rem;
   color: purple;
   position: absolute;
 }
 
+.coach-card-container{
+  display: block;
+  align: center;
+}
 
 .pl-card-container-0 {
   position: absolute;
@@ -98,4 +102,9 @@ td { height:100px }
 
  .popover {
    text-align: center;
+   font-size: 1.5rem;
  }
+
+table, th, td {
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @coach.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @coach.last_name %>
+</p>
+
+<p>
+  <strong>Coach position:</strong>
+  <%= @coach.coach_position %>
+</p>
+
+<p>
+  <strong>Article:</strong>
+  <%= @coach.article %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= image_tag(@idea.picture_url, width: 600) if @idea.picture.present? %>
+</p>
+
+<p>
+  <strong>Strength:</strong>
+  <%= @coach.strength %>
+</p>
+
+<p>
+  <strong>Weakness:</strong>
+  <%= @coach.weakness %>
+</p>
+
+<%= link_to 'Back', coaches_path %>

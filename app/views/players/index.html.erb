@@ -11,7 +11,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'FS' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -34,7 +34,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'SS' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -58,7 +58,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'RCB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -85,7 +85,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'LCB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -109,7 +109,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'SLB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -130,7 +130,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'MLB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -151,7 +151,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'WLB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -176,7 +176,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'RDE' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -197,7 +197,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'NT' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -218,7 +218,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'DLT' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -239,7 +239,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'LDE' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -262,7 +262,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'LWR' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -283,7 +283,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'LT' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -303,7 +303,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'LG' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -323,7 +323,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'C' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -343,7 +343,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'RG' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -363,7 +363,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'RT' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -384,7 +384,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'RWR' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -407,7 +407,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'TE1' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -429,7 +429,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'QB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -451,7 +451,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'TE2' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
@@ -489,7 +489,7 @@
         <% pos_idx = @positions.find_index { |plr| plr[0].position == 'HB' } %>
           <% @positions[pos_idx].each_with_index do |player, index| %>
           <div class="pl-card-container-<%= index %>">
-            <div class="pl-name"><%= player.last_name %></div>
+            <div class="pic-name"><%= player.last_name %></div>
             <%= image_tag(player.picture_url, width: 60, rel: "popover", data: {
               toggle: "popover",
               trigger: "hover",
