@@ -55,9 +55,12 @@ html {
   position: absolute;
 }
 
-.coach-card-container{
-  display: block;
-  align: center;
+.coach-card-container img{
+ display:block; margin:0 auto; 
+}
+
+.coach-card-container {
+  text-align:center;
 }
 
 .pl-card-container-0 {
@@ -93,18 +96,11 @@ html {
   width: 10vh;
 }
 
-table {
-  height: auto;
-  display: table;
+td {
+  height:100px
 }
 
-td { height:100px }
-
- .popover {
+.popover {
    text-align: center;
    font-size: 1.5rem;
- }
-
-table, th, td {
-    border: 1px solid black;
 }
