@@ -1,0 +1,72 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Players</h1>
+
+<table style="width:100%">
+  <tbody>
+    <tr>
+      <td></td>
+      <td class="cell-container">
+        <% coach_idx = @coaches.find_index do |coach| coach.coach_position == 'HC'  %>
+          <div class="coach-card-container">
+            <%= image_tag(coach.picture_url, width: 60, rel: "popover", data: {
+              toggle: "popover",
+              trigger: "hover",
+              placement: "top",
+              container: "body",
+              title: "#{coach.first_name} #{coach.last_name}",
+              content: "#{image_tag(coach.picture_url)}<br>
+              #{coach.coach_position} <br>
+              Strengths: #{coach.strength}<br>
+              Weaknesses: #{coach.weakness}<br>
+              #{coach.article}"
+            }) if coach.picture.present? %>
+            <div><%= coach.last_name %></div>
+          </div>
+         <% end %>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="cell-container">
+        <% coach_idx = @coaches.find_index do |coach| coach.coach_position == 'OC'  %>
+          <div class="coach-card-container">
+            <%= image_tag(coach.picture_url, width: 60, rel: "popover", data: {
+              toggle: "popover",
+              trigger: "hover",
+              placement: "top",
+              container: "body",
+              title: "#{coach.first_name} #{coach.last_name}",
+              content: "#{image_tag(coach.picture_url)}<br>
+              #{coach.coach_position} <br>
+              Strengths: #{coach.strength}<br>
+              Weaknesses: #{coach.weakness}<br>
+              #{coach.article}"
+            }) if coach.picture.present? %>
+            <div><%= coach.last_name %></div>
+          </div>
+         <% end %>
+      </td>
+      <td></td>
+      <td class="cell-container">
+        <% coach_idx = @coaches.find_index do |coach| coach.coach_position == 'DC'  %>
+          <div class="coach-card-container">
+            <%= image_tag(coach.picture_url, width: 60, rel: "popover", data: {
+              toggle: "popover",
+              trigger: "hover",
+              placement: "top",
+              container: "body",
+              title: "#{coach.first_name} #{coach.last_name}",
+              content: "#{image_tag(coach.picture_url)}<br>
+              #{coach.coach_position} <br>
+              Strengths: #{coach.strength}<br>
+              Weaknesses: #{coach.weakness}<br>
+              #{coach.article}"
+            }) if coach.picture.present? %>
+            <div><%= coach.last_name %></div>
+          </div>
+         <% end %>
+      </td>
+    </tr>
+  </tbody>
+</table>
