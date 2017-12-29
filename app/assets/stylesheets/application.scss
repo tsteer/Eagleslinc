@@ -9,13 +9,16 @@ html {
   justify-content: center;
   font-weight: lighter;
   display: flex;
-  background-color: gray;
+  background-color: #BBC3C8;
   margin-bottom: 0;
   height: 10vh;
+  font-size: 2vh;
+  vertical-align: middle;
+  padding-top: 3vh;
 }
 
 .flex-container {
-  min-height: 100vh - 17vh;
+  min-height: 100vh - 27vh;
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -27,12 +30,28 @@ html {
   justify-content: space-between;
 }
 
+.article-index-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .article-index-thumbnail {
   width: 20vh;
 }
 
 .card-subtitle {
   vertical-align: top;
+  font-family: 'EB Garamond', serif;
+  font-size: 3rem;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-title:hover {
+  color: #BBC3C8;
+  text-decoration: none;
 }
 
 .wysiwyg-content img {
@@ -43,24 +62,29 @@ html {
 .flex-container {
   display: flex;
   flex-basis: 25%;
-  color: white;
+  color: black;
   font-size: 2rem;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .pic-name {
+  margin-top: -0.5rem;
+  font-family: 'EB Garamond', serif;
   font-size: 2rem;
-  color: purple;
+  color: white;
   position: absolute;
+  padding-left: 0.5rem;
 }
 
 .coach-card-container img{
- display:block; margin:0 auto; 
+  display:block; margin:0 auto; 
 }
 
 .coach-card-container {
   text-align:center;
+  font-family: 'EB Garamond', serif;
+  color: white;
 }
 
 .pl-card-container-0 {
@@ -103,4 +127,98 @@ td {
 .popover {
    text-align: center;
    font-size: 1.5rem;
+}
+
+.navbar {
+  font-family: 'EB Garamond', serif;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+}
+
+.navbar-brand {
+  font-size: 2vh;
+  text-align: center;
+}
+
+.table-page-title {
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 14vh;
+}
+
+.static-page h1{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.static-page p {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.page-container {
+  margin-top: 4rem;
+}
+
+.card h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 5rem;
+}
+
+.card h2 {
+  font-size: 3rem;
+}
+
+.alert {
+  text-shadow: none !important;
+  border-top: none;
+}
+
+::-webkit-input-placeholder { font-size: 16px; }
+::-moz-placeholder { font-size: 16px; } /* firefox 19+ */
+:-ms-input-placeholder { font-size: 16px; } /* ie */
+input:-moz-placeholder { font-size: 16px; }
+
+.field {
+  padding-top: 2rem;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+.subheading-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 3rem;
+}
+
+.comment {
+  border-bottom: 1px solid gray;
+}
+
+.comment-input {
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.comment:last-child {
+  border-bottom: 0;
 }

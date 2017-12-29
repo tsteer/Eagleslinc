@@ -1,6 +1,4 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Players</h1>
+<h1 class="table-page-title">Coaches</h1>
 
 <table style="width:100%">
   <tbody>
@@ -21,7 +19,7 @@
               Weaknesses: #{coach.weakness}<br>
               #{coach.article}"
             }) if coach.picture.present? %>
-            <div><%= coach.last_name %></div>
+            <p><%= coach.last_name %></p>
           </div>
          <% end %>
       </td>
