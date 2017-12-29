@@ -43,6 +43,8 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'pry-rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
+gem 'activeadmin_tinymce'
+gem 'tinymce-rails', '~> 4.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
