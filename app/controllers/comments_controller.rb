@@ -4,12 +4,13 @@ class CommentsController < ApplicationController
   # GET /comments
   # GET /comments.json
   def index
-    @comments = Comment.all
+    render plain: '404 not found', status: 404
   end
 
   # GET /comments/1
   # GET /comments/1.json
   def show
+    render plain: '404 not found', status: 404
   end
 
   # GET /comments/new
