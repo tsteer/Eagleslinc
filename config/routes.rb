@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   resources :comments
   get 'pages/about'
+  get 'pages/resources'
 
   root to: redirect('/articles')
   resources :articles, only: [:show, :index]
