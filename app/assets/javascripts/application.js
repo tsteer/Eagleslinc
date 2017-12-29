@@ -11,8 +11,9 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
+//= require jquery
 //= require_tree .
+//= require jquery.turbolinks
 $(document).ready(function(){
   $('[rel="popover"]').popover({ trigger: "hover",
     html: true
