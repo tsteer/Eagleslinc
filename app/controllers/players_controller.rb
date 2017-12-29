@@ -4,6 +4,10 @@ class PlayersController < InheritedResources::Base
     @positions = Player.group_position
   end
 
+  def show
+    render plain: '404 not found', status: 404
+  end
+
   private
 
     def player_params

@@ -5,6 +5,10 @@ class CoachesController < InheritedResources::Base
     @articles = Article.coach_category
   end
 
+  def show
+    render plain: '404 not found', status: 404
+  end
+
   private
 
     def coach_params
