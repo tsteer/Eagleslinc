@@ -1,5 +1,5 @@
 ActiveAdmin.register Article do
-  permit_params :title, :subheading, :article_body, :picture
+  permit_params :title, :subheading, :article_body, :picture, :coach, :player, :front_office
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
