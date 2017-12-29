@@ -2,6 +2,7 @@ class CoachesController < InheritedResources::Base
 
   def index
     @coaches = Coach.all
+    @articles = Article.coach_category
   end
 
   private
