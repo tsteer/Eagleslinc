@@ -3,7 +3,7 @@
     <h1><%= @article.title %></h1>
     <div class="subheading-date">
       <h2><%= @article.subheading %></h2>
-      <h3 class="date">Posted on <%= @article.created_at.to_s.first(-13) %></h2>
+      <h3 class="date">Posted on <%= @article.created_at.to_s.first(-13) %></h3>
     </div>
     <p><%= @article.article_body %></p>
   </div>
@@ -20,7 +20,7 @@
           <p><%= comment.body %></p>
         </li>
         <% end %>
-      </ul
+      </ul>
     <%= render partial: 'comments/form', locals: { comment: @comment } %>
   </div>
 </div>

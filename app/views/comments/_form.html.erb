@@ -16,7 +16,9 @@
   </div>
 
   <div class="field">
-    <%= form.text_area :body, placeholder: 'Enter your comment...', id: :comment_body, class: "form-control comment-input"  %>
+    <div id="remove-editor">
+      <%= form.text_area :body, placeholder: 'Enter your comment...', id: :comment_body, class: "form-control comment-input"  %>
+    </div>
   </div>
 
   <div class="field">
