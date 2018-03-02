@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resources :comments, only: [:index, :new, :create]
 
   scope :pages do
-    get :resources, to: 'pages#resources', as: :resources
-    get :about, to: 'pages#about', as: :about
+    get :resources, to: 'pages#resources', as: :pages_resources
+    get :about, to: 'pages#about', as: :pages_about
   end
 end
