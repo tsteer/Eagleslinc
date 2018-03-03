@@ -5,7 +5,7 @@
       <h2><%= @article.subheading %></h2>
       <h3 class="date">Posted on <%= @article.created_at.to_s.first(-13) %></h3>
     </div>
-    <p><%= @article.article_body %></p>
+    <div><%= @article.article_body.html_safe %></div>
   </div>
 </div>
 

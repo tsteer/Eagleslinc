@@ -1,3 +1,9 @@
 //= require active_admin/base
 //= require tinymce
-//= require admin_lib/init_tinymce
+
+$(document).ready(function() {
+  tinyMCE.init({
+     mode: 'specific_textareas',
+     theme: 'modern'
+   });
+});
