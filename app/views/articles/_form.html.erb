@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= form.label :article_body %>
-    <%= form.text_area :article_body, id: :article_article_body %>
+    <%= form.text_area :article_body, id: :article_article_body, class: "tinymce"  %>
   </div>
 
   <div class="field">
@@ -35,3 +35,4 @@
     <%= form.submit %>
   </div>
 <% end %>
+<%= tinymce %>
