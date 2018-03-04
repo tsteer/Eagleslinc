@@ -16,6 +16,12 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+npm-debug.log
+server.csr
+server.key
+server.pass.key
+
+.DS_Store
 
 /node_modules
 /yarn-error.log
