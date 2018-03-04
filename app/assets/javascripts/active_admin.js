@@ -4,6 +4,7 @@
 $(document).ready(function() {
   tinyMCE.init({
      mode: 'specific_textareas',
-     theme: 'modern'
+     theme: 'modern',
+     editor_deselector : "mceNoEditor"
    });
 });
