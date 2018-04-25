@@ -1,3 +1,4 @@
+<% if %>
 <div class="page-container">
   <div class="card mb-7 static-page">
     <div class="card-block px-4 py-5">
@@ -5,7 +6,8 @@
     </div>
   </div>
 </div>
-<% unless @positions == [] %>
+
+<% else %>
 <table style="width:100%">
   <tbody>
     <tr>
