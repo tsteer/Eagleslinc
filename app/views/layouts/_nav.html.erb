@@ -1,11 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-light navigation">
-  <%= link_to 'Eagles Linc', root_path, class: 'navbar-brand' %>
+<nav class="navbar navbar-expand-lg navbar-static-top navbar-light navigation">
+  <%= link_to image_tag('EL_final.png', width: '250', height: '220'), root_path %>&emsp;
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end pr-2" id="navbarNavMenu">
     <div class="navbar-nav">
       <%= link_to 'Articles', articles_path, class: 'nav-item nav-link' %>
+      <%= link_to 'Depth Chart', pages_resources_path, class: 'nav-item nav-link' %>
+      <%= link_to 'Player Personnel', players_path, class: 'nav-item nav-link' %>
+      <%= link_to 'Coaches Corner', coaches_path, class: 'nav-item nav-link' %>
+	  <%= link_to 'About', pages_about_path, class: 'nav-item nav-link' %>
     </div>
   </div>
 </nav>
