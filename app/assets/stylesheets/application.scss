@@ -247,3 +247,8 @@ ul {
 .comment:last-child {
   border-bottom: 0;
 }
+
+.wysiwyg-content img {
+  max-width: 100%;
+  height: auto !important;
+}
