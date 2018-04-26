@@ -144,6 +144,20 @@ td {
   text-align: center;
 }
 
+.banner{
+  font-size: 34px;
+  color: white;
+  padding-left: 3rem;
+}
+
+@include media-breakpoint-up(lg) {
+  .banner {
+    position: absolute;
+    right: 3rem;
+    top: 21px;
+  }
+}
+
 .table-page-title {
   text-align: center;
   margin-top: 6vh;
