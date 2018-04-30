@@ -4,7 +4,7 @@
 $(document).ready(function() {
   tinyMCE.init({
     mode: 'specific_textareas',
-    editor_deselector : "mceNoEditor"
+    editor_deselector : "mceNoEditor",
     plugins: "media",
     theme: "advanced", 
     theme_advanced_buttons1: "code", 
