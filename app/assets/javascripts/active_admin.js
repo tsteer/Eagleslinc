@@ -6,7 +6,7 @@ $(document).ready(function() {
     mode: 'specific_textareas',
     editor_deselector : "mceNoEditor",
     plugins: "media",
-    theme: "advanced", 
+    theme: "modern", 
     theme_advanced_buttons1: "code", 
     media_strict: false 
    });
