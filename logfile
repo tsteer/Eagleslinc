@@ -23,3 +23,9 @@ LOG:  autovacuum launcher started
 LOG:  database system is ready to accept connections
 ERROR:  database "eagleslinc" already exists
 STATEMENT:  CREATE DATABASE "eagleslinc" ENCODING = 'utf8'
+LOG:  database system was shut down at 2018-05-01 20:34:51 BST
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  database "eagleslinc" already exists
+STATEMENT:  CREATE DATABASE "eagleslinc" ENCODING = 'utf8'

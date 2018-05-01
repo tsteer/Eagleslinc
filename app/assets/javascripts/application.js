@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require jquery
 //= require tinymce
+//= require ckeditor/init
 //= require_tree .
 //= require jquery.turbolinks
 $(document).ready(function(){
