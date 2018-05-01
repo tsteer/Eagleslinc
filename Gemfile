@@ -43,6 +43,7 @@ gem 'pry-rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'tinymce-rails', '~> 4.6'
+gem 'ckeditor', '~> 4.1'
 
 group :development, :test do
   gem 'sqlite3'
