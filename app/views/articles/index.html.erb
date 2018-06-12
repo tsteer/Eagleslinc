@@ -6,7 +6,6 @@
           <div class="article-index-text-container">
             <h1><%= link_to article.title, article_path(article), class: 'card-title py-2' %></h1>
             <div class="card-subtitle"><%= article.subheading %></div>
-            <div class="card-body"><%= article.article_body.html_safe %></div>
           </div>
           <%= image_tag article.picture_url(:thumb), class: 'article-index-thumbnail' if article.picture.present? %>
         </div>
