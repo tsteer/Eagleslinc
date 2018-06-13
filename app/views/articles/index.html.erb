@@ -6,10 +6,6 @@
           <div class="article-index-text-container">
             <h1><%= link_to article.title, article_path(article), class: 'card-title py-2' %></h1>
             <div class="card-subtitle"><%= article.subheading %></div>
-            <% body = '' %>
-            <% body = article.article_body.gsub!(/(<[^>]*>)|\n|\t/s) {" "} %>
-            <% body = article.article_body.gsub!(/&rsquo;/) {"'"} %>
-            <div class="card-body"><%= body.split[0..100].join(" ") %></div>
           </div>
           <%= image_tag article.picture_url(:thumb), class: 'article-index-thumbnail' if article.picture.present? %>
         </div>
