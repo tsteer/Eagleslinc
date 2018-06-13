@@ -2,7 +2,6 @@
   <div class="card-block px-4 py-2">
     <h1><%= @article.title %></h1>
     <div class="subheading-date">
-      <h2><%= @article.subheading %></h2>
       <h3 class="date">Posted on <%= @article.created_at.to_s.first(-13) %></h3>
     </div>
     <div class="wysiwyg-content"><%= @article.article_body.html_safe %></div>
